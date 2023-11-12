@@ -1,11 +1,11 @@
 import './App.css';
-import Table from './components/Table';
+import Router from './router';
 
 function App() {
   return (
-    <div className="App">
-      <Table/>
-    </div>
+    <>
+      <Router/>
+    </>
   );
 }
 
