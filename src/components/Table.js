@@ -19,7 +19,7 @@ function Table() {
             setArray([...array, { name, number }]) // spread opertor to add inputData to array
             setInputData({ name: "", number: "" }); // empty inpu fields after
         }
-    };
+    };//comment
 
     const handleDeleteData = (i) => {
         // console.log("This is to be deleted", i);
